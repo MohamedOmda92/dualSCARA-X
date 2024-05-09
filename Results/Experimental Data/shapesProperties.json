@@ -1,0 +1,30 @@
+{
+    "rectangle":{
+        "required": ["Height","Width","Pin point X value","Pin point Y value","Draw time"],
+        "optional": ["Anchor location","Draw direction"],
+        "types": ["float","float","float","float","int","OPTIONAL","OPTIONAL"],
+        "choices": ["{cm}","{cm}","{cm}","{cm}","{seconds}","{n,s,e,w,ne,nw,se,sw}","{cw,ccw}"]
+    },
+
+    "circle":{
+        "required": ["Radius","Center X value","Center Y value","Draw time"],
+        "optional": ["Start angle","Draw direction"],
+        "types": ["float","float","float","float","OPTIONAL","OPTIONAL"],
+        "choices": ["{cm}","{cm}","{cm}","{seconds}","{Deg}>=0","{cw,ccw}"]
+    },
+
+    "ellipse":{
+        "required": ["Center X value","Center Y value","X amplitude","Y amplitude","Draw time"],
+        "optional": ["Start angle","Rotation angle","Draw direction"],
+        "types": ["float","float","float","float","float","OPTIONAL","OPTIONAL","OPTIONAL"],
+        "choices": ["{cm}","{cm}","{cm}","{cm}","{seconds}","{Deg}>=0","{Deg}>=0","{cw,ccw}"]
+    },
+
+    "arc":{
+        "required": ["Radius","Center X value","Center Y value","Start angle","End angle", "Draw time"],
+        "optional": [],
+        "types": ["float","float","float","float","float","float"],
+        "choices": ["{cm}","{cm}","{cm}","{Deg}","{Deg}","{seconds}"]
+    }
+}
+

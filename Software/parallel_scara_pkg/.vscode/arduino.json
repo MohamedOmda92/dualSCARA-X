@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "arduino/position_planner/position_planner.ino",
+    "programmer": "arduino:avrisp"
+}

@@ -1,0 +1,3 @@
+<launch>
+  <node name="position_planner" pkg="parallel_scara_pkg" type="position_planner.py" output="screen"/>
+</launch>

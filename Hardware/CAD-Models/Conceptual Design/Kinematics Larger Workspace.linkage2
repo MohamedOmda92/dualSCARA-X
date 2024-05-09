@@ -1,0 +1,27 @@
+<linkage2>
+	<program zoom="0.591716" xoffset="232" yoffset="-166" scalefactor="1.000000" units="Millimeters" backgroundtransparency="0.000000" backgroundscale="1.000000" xgrid="" ygrid=""/>
+	<connector id="1" selected="false" layer="16" x="0.000000" y="0.000000" anchor="true" locked="true" input="true" rpm="0.000000" alwaysmanual="true" color="12632064" usercolor="false"/>
+	<connector id="6" selected="false" layer="16" x="491.338583" y="0.000000" anchor="true" locked="true" input="true" rpm="0.000000" alwaysmanual="true" color="16744448" usercolor="false"/>
+	<connector id="7" selected="false" layer="16" x="-0.000000" y="377.952756" draw="true" color="11272364" usercolor="false"/>
+	<connector id="8" selected="false" layer="16" x="491.339586" y="377.951716" draw="true" color="8439808" usercolor="false"/>
+	<connector id="9" selected="false" layer="16" x="245.669688" y="971.652119" draw="true" color="13123282" usercolor="false"/>
+	<Link id="2" selected="false" layer="16" linesize="1" locked="true" shapetype="hull" color="32768" usercolor="false">
+		<connector id="1"/>
+		<connector id="7"/>
+	</Link>
+	<Link id="3" selected="false" layer="16" linesize="1" locked="true" shapetype="hull" color="16711808" usercolor="false">
+		<connector id="6"/>
+		<connector id="8"/>
+	</Link>
+	<Link id="4" selected="false" layer="16" linesize="1" locked="true" shapetype="hull" color="6854344" usercolor="false">
+		<connector id="7"/>
+		<connector id="9"/>
+	</Link>
+	<Link id="0" selected="false" layer="16" linesize="1" locked="true" shapetype="hull" color="16711680" usercolor="false">
+		<connector id="8"/>
+		<connector id="9"/>
+	</Link>
+	<selected>
+	</selected>
+	<background></background>
+</linkage2>

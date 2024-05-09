@@ -1,0 +1,14 @@
+c_mexapi_version.obj
+SCARA_Control_System_cgxe.obj
+m_nM5NMYJUCkhQa81HtyaWRC.obj
+SCARA_Control_System_cgxe_registry.obj
+ccd_ccd.obj
+ccd_mpr.obj
+ccd_polytope.obj
+ccd_vec3.obj
+collisioncodegen_CollisionGeometry.obj
+collisioncodegen_api.obj
+collisioncodegen_ccdExtensions.obj
+collisioncodegen_checkCollision.obj
+/LIBPATH:C:\PROGRA~1\MATLAB\R2023a\extern\lib\win64\microsoft
+C:\PROGRA~1\MATLAB\R2023a\extern\lib\win64\microsoft\libmwblas.lib

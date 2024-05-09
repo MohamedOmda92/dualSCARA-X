@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/mohamed/catkin_ws/devel/lib/python3/dist-packages",
+        "/home/mohamed/practice_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/mohamed/CARLA_0.9.11/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/mohamed/catkin_ws/devel/lib/python3/dist-packages",
+        "/home/mohamed/practice_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/mohamed/CARLA_0.9.11/PythonAPI/carla/dist/carla-0.9.11-py3.7-linux-x86_64.egg"
+    ]
+}
